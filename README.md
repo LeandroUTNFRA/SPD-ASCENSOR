@@ -81,7 +81,7 @@ void PararAscensor(){
       if (digitalRead(BotonParar) == LOW) {
        	Flag=true;
         Serial.println("MONTACARGA EN MARCHA");
-         delay(1000);
+        delay(1000);
         digitalWrite(LedRojo, LOW);
         break;
       }
@@ -102,7 +102,7 @@ void  SubirBajar()
   if (Boton1 == LOW){
   	contador++;
     digitalWrite(LedVerde, HIGH);
-  	EncenderDisplay(contador);
+    EncenderDisplay(contador);
     while (contador < 0 || contador > 9) {
         Serial.println("ERROR BAJE");
         delay(1000);
