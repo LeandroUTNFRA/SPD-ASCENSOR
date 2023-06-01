@@ -262,6 +262,8 @@ void EncenderDisplay(int numero)
     	digitalWrite(E, LOW);
     	digitalWrite(F, LOW);
     	break;
+	
+	// P cuando pare el ascensor
     case 11:
       digitalWrite(A, HIGH);
       digitalWrite(B, HIGH);
