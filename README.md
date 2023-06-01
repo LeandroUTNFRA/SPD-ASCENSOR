@@ -124,7 +124,7 @@ void  SubirBajar()
 }
 ~~~
 
-# ENCENDERDIPLAY
+# ENCENDERDISPLAY
 Esta funcion dependiendo el numero que se
 le pase por parametro va enscender un numero 
 del display
